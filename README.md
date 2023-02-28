@@ -22,8 +22,26 @@ A commit consists of:
 * A title and description
 * **Commit ID**
 
-```
-TBD
+```diff
+commit 06b6409ab8822756328acefca0eb9ad55358cfc6 (HEAD -> feature/5710, origin/feature/5710)
+Author: Sebastian Poehn <seb.poehn@somemail.com>
+Date:   Tue Feb 28 14:19:32 2023 +0100
+
+    Mention branches and tags
+
+diff --git a/README.md b/README.md
+index e42e489..3f41420 100644
+--- a/README.md
++++ b/README.md
+@@ -29,7 +29,7 @@ TBD
+ The **Commit ID** is a checksum built from the diff and the previous Commit ID.
+ All diffs make up the **Git History**.
+
+-
++**Branches** and **tags** are just pointer referencing a commit.
+
+ ```mermaid
+ gitGraph
 ```
 
 The **Commit ID** is a checksum built from the diff and the previous Commit ID.
@@ -37,7 +55,7 @@ gitGraph
     commit id: "18bdbff"
     branch feature/5710
     checkout feature/5710
-    commit id: "871a01"
+    commit id: "06b6409"
     checkout main
     merge feature/5710
     commit id: "745835"
