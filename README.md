@@ -29,7 +29,7 @@ TBD
 The **Commit ID** is a checksum built from the diff and the previous Commit ID.
 All diffs make up the **Git History**.
 
-
+**Branches** and **tags** are just pointer referencing a commit.
 
 ```mermaid
 gitGraph
