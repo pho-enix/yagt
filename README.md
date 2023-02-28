@@ -32,10 +32,9 @@ All diffs make up the **Git History**.
 
 
 ```mermaid
-TBD
 gitGraph
-    commit id: "a5612e" tag: "2.0.7"
-    commit id: "b7120a"
+    commit id: "af70581"
+    commit id: "18bdbff"
     branch feature/5710
     checkout feature/5710
     commit id: "871a01"
