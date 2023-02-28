@@ -52,13 +52,13 @@ All diffs make up the **Git History**.
 ```mermaid
 gitGraph
     commit id: "af70581"
-    commit id: "18bdbff" tag: "v0.0.1"
+    commit id: "f157685" tag: "v0.0.1"
     branch feature/5710
     checkout feature/5710
     commit id: "06b6409"
     checkout main
     merge feature/5710
-    commit id: "745835"
+    commit id: "a796451"
 ```
 
 ## A typical git flow
