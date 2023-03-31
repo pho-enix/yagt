@@ -118,3 +118,7 @@ Does not apply for local or remote feature branches that nobody else has pulled.
 Chunk changes in smaller pieces and merge regularly.
 Feature flags or conditionals might be helpful.
 With this strategy the code base will diverge less and you have less risk for conflicts.
+
+---
+
+More to come.
